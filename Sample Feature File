@@ -1,0 +1,16 @@
+Feature: Job Portal Functionality
+
+  Scenario: User Registration
+    Given the user is on the registration page
+    When the user enters valid registration details
+    Then the user should be registered successfully
+
+  Scenario: User Login
+    Given the user is on the login page
+    When the user enters valid credentials
+    Then the user should be logged in successfully
+
+  Scenario: Job Search
+    Given the user is logged in
+    When the user searches for "Software Engineer"
+    Then the job listings should be displayed

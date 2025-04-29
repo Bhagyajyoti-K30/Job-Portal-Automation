@@ -1,0 +1,23 @@
+JobPortalAutomation/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── jobportal/
+│   │               ├── pages/
+│   │               │   ├── LoginPage.java
+│   │               │   ├── JobSearchPage.java
+│   │               │   └── ProfilePage.java
+│   │               └── utils/
+│   │                   └── WebDriverManager.java
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── jobportal/
+│                   ├── stepdefinitions/
+│                   │   └── JobPortalSteps.java
+│                   └── runners/
+│                       └── TestRunner.java
+│
+└── pom.xml
